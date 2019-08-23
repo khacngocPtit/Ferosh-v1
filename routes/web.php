@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('trang-chu');
+});
+
+Route::get('/trang-chu', function () {
+    return view('trang-chu');
 });
