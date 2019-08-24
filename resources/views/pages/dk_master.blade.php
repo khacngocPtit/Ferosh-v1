@@ -52,33 +52,95 @@
 <div class="contentdk">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 noidungdk">
+			<div class="col-md-12 noidungdk">
 				<div class="col-12">
 					<p style="margin-top: 2%;font-size:18px;">MỞ TÀI KHOẢN VỚI FEROSH</p>
 					<p style="font-size: 12px;margin-top:-1%;color: black;">Trở thành thành viên của Ferosh nhận các tin tức thời trang trong nước và quốc tế, các chương trình khuyến mại duy nhất chỉ dành cho các thành viên của Ferosh hay là những người đầu tiên được thông báo khi có sản phẩm thiết kế mới. Bạn còn chờ gì nữa?</p>
 					<p>* Thông tin bắt buộc</p>
 				</div>
-				<div class="col-12">
-					<div class="col-6 left">
-				     <label>Email *</label>
-				     <input type="text" name=""><br/>
-				     <label>Mật khẩu *</label>
-				     <input type="text" name=""><br/>
-				     <label>Nhập lại mật khẩu *</label>
-				     <input type="text" name=""><br/>
-				     <label>Địa chỉ *</label>
-				     <input type="text" name=""><br/>
-				     <label>Thành phố *</label>
-				     <select>
-				     	<option>dghjkc</option>
-				     	<option>dghjkc</option>
-				     	<option>dghjkc</option>
-				     	<option>dghjkc</option>
-				     </select>
+
+				<div class="col-md-12">
+					<div class="row">
+					<div class="col-md-6 left">
+						<table  >
+							<tr>
+								<td>Email *
+									<td><input type="text" name=""></td>
+								</td>
+							</tr>
+							<tr>
+			                    <td>Mật khẩu *
+									<td><input type="text" name=""></td>
+								</td>
+							</tr>
+							<tr>
+			                    <td>Nhập lại mật khẩu *
+									<td><input type="text" name=""></td>
+								</td>
+							</tr>
+							<tr>
+			                    <td>Địa chỉ *
+									<td><input type="text" name=""></td>
+								</td>
+							</tr>
+							<tr>
+			                    <td>Thành phố *
+									<td>
+										<select >
+											<option>chọn thành phố</option>
+											<option>Hà Nội</option>
+											<option>Hà Nội</option>
+											<option>Hà Nội</option>
+											<option>Hà Nội</option>
+											<option>Hà Nội</option>
+											<option>Hà Nội</option>
+											<option>Hà Nội</option>
+										</select>
+									</td>
+								</td>
+							</tr>
+						</table>
 					</div>
-					<div class="col-6 right">
+					<div class="col-md-6 right">
+						<table  >
+							<tr>
+								<td>Email *
+									<td><input type="text" name=""></td>
+								</td>
+							</tr>
+							<tr>
+			                    <td>Mật khẩu *
+									<td><input type="text" name=""></td>
+								</td>
+							</tr>
+							<!-- <tr>
+			                    <td>Giới tính
+			                    	<td>
+			                    		
+			                    	</td>
+								</td>
+							</tr> -->
+							<form action="">
+								Giới tính:
+								<input type="radio" name="sex">Nam
+								<input type="radio" name="sex">Nữ
+							</form>
+						</table>
+                        <div class="khuyenmai ">
+                        	
+                        	<a href="">Nhận thông tin về các chương trình khuyến mại và các cập nhật mới từ Ferosh</a>
+                        </div>
+                        <div class="infor">
+                        	<a href="">Nhận thông tin sản phẩm thiết kế mới</a>
+                        </div>
+                        <div class="dkn">
+                        <a href="">Đăng kí ngay</a>
+                        </div>
+                        <div class="facebook">
+                        <a href="">facebook</a>
+                        </div>
 					</div>
-				</form>
+					</div>
 			</div>
 			</div>
 		</div>
