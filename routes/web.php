@@ -12,9 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('trang-chu');
+    return view('pages.index');
+});
+Route::get('/colection', function () {
+    return view('pages.colection');
+});
+Route::get('/chi-tiet-san-pham', function () {
+    return view('pages.chitietsanpham');
+});
+Route::get('/san-pham', function () {
+    return view('pages.sanpham');
 });
 
-Route::get('/trang-chu', function () {
-    return view('trang-chu');
-});
