@@ -14,7 +14,7 @@
         return view('pages.tk_master');
     })->name('tk_master');
 
-<<<<<<< HEAD
+
    Route::get('/bst_master', function () {
         return view('pages.bst_master');
     })->name('bst_master');
@@ -29,7 +29,6 @@
    Route::get('/dk_master', function () {
         return view('pages.dk_master');
     })->name('dk_master');
-=======
 Route::get('/', function () {
     return view('trang-chu');
 });
@@ -37,4 +36,6 @@ Route::get('/', function () {
 Route::get('/trang-chu', function () {
     return view('trang-chu');
 });
->>>>>>> bd754e7151bd8324d3a108b5803c5fcdcddabcdf
+   Route::get('/dn', function () {
+        return view('pages.dn');
+    })->name('dn');
